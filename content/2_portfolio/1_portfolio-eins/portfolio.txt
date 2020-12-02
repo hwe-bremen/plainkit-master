@@ -1,0 +1,19 @@
+Title: Portfolio Eins
+
+----
+
+Headline: Portfolio Eins
+
+----
+
+Text: Das erste Portfolio wird hier stehen
+
+----
+
+Textarea: Bla  aa aaaaaaaaa
+
+----
+
+Cover:
+
+- bild_portfolio_1.jpg

@@ -1,0 +1,24 @@
+title: Home
+preset: page
+
+fields:
+  Headline:
+    type: text
+  Text:
+    type: text
+  Textarea:
+    type: textarea
+
+
+
+
+      
+    
+  
+
+
+
+
+
+
+

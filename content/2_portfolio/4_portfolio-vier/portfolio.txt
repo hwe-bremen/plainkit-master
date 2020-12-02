@@ -1,0 +1,19 @@
+Title: Portfolio vier
+
+----
+
+Headline: Das wird der Vierte Portfolio Artikel
+
+----
+
+Text: Hier der Einstieg zu Nummer Vier
+
+----
+
+Textarea: Lorem Ipsum Dolores steht hier oder irgend ein anderer Quatsch. Das ist ja auch nur Blindtext, Reiner Loren ipsum Text als. So ist das nun mal.
+
+----
+
+Cover:
+
+- bild_portfolio_4.jpg
