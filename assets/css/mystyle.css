@@ -37,8 +37,8 @@ p {
 }
 .button_standard {
     align-self: flex-start;
-    margin-top: auto;
-    margin-bottom: 1em;
+    /*margin-top: auto;
+    margin-bottom: 1em;*/
     padding: 0 1.5em;
     line-height: 2em;
     font-size: 1rem;
