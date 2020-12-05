@@ -10,10 +10,11 @@ fields:
     type: textarea
   Selbstdarstellung:
     type: textarea
-  Selbstdarstellung_Bild:
-    type: files 
+  selbstdarstellung_bild:
+    label: Selbstdarstellung Bild
     layout: cards
-    template: image 
+    type: files
+
 
 
 
