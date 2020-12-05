@@ -8,8 +8,8 @@
 
 <section id="inhalt">
     <div class="grid-0">
-          <h2 class="grid-inhalt"><?= $page->text()->html() ?></h2>
-          <h3 class="grid-inhalt"><?= $page->textarea()->html() ?> </h3> 
+          <h2 class="grid-inhalt"><?= $page->headline()->html() ?></h2>
+          <h3 class="grid-inhalt"><?= $page->introtext()->html() ?> </h3> 
           
     </div>  
 
@@ -28,8 +28,8 @@
   <?php endif ?>
 
             <div class="card_text">
-              <p class="p_fett"><?= $portfolio->text() ?></P>
-              <div class="button-standard--abstand"><p><?= $portfolio->textarea() ?><p></div>
+              <p class="p_fett card_text--groesse"><?= $portfolio->headline() ?></p>
+              <div class="button-standard--abstand"><p class="card_text--groesse"><?= $portfolio->textarea() ?><p></div>
               <button class="button_standard"> <a class="button_standard--link" href="<?= $portfolio->url() ?>"> mehr </a> </button>
             </div> 
 
@@ -38,6 +38,13 @@
         <?php endforeach ?>
     </div>
 
+</section>
+
+<section id="home_selbstdarstellung" class="grid-0">
+    <div class="home_container_selbstdarstellung">
+            <p class="spalte"><?= $page->selbstdarstellung() ?><p>
+            <img class="selbstdarstellung_bild" src="<?= $page->selbstdarstellung_bild()->url() ?>" alt=""> 
+    </div>
 </section>
 
 </main>

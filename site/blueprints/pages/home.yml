@@ -2,12 +2,21 @@ title: Home
 preset: page
 
 fields:
+  Headertext:
+    type: text
   Headline:
     type: text
-  Text:
-    type: text
-  Textarea:
+  Introtext:
     type: textarea
+  Selbstdarstellung:
+    type: textarea
+  Selbstdarstellung_Bild:
+    type: files 
+    layout: cards
+    template: image 
+
+
+
 
 
 

@@ -9,6 +9,6 @@
 
         </div>
 
-            <div id="head_line"><h1 id= "head_header"><?= $page->headline() ?></h1></div>
+            <div id="head_line"><h1 id= "head_header"><?= $page->headertext() ?></h1></div>
 
     </header>
