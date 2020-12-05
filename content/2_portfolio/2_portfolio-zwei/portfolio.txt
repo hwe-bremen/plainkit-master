@@ -10,7 +10,7 @@ Text: Zweite Seite da Portfolio Zwei
 
 ----
 
-Textarea: ZWEI  si **disque sapid ut incto** bea aborrum fugit ium con con nobis vid quam autatem. Mod ut as samus eturest quaspieni doluptat enistiati ut ad mil magni simo od molupta turerch ilisquam ut eosam, esto dalo rome.
+Textarea: <b>ZWEI  sidisque</b> - sapid ut incto bea aborrum fugit ium con con nobis vid quam autatem.
 
 ----
 

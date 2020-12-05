@@ -1,13 +1,19 @@
-Headline: Home und so
+Headertext: TOUCHPOINT
 
 ----
 
-Text: Das wird hier mein erster Versuch.
+Headline: Das wird hier mein erster Versuch.
 
 ----
 
-Textarea: Und ich gebe mir mal Mühe hier etwas gescheites reinzuschreiben damit sich die Zeilen hier auch mal etwas füllen. Klappt grad mal so eben.
+Introtext: Hallo Dieter! Hier schreibe ich mal was rein, nur so, eigentlich muss hier gar nichts stehen. Das soll nämlich nur ein Beispiel sein.
 
 ----
 
-Titel: Home
+Selbstdarstellung: Lorumque quam quatia dolupta tiorestibus aut doluptaseiumini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor. Lorumque quam quatia dolupta tiorestibus aut doluptas eium ini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor s
+
+----
+
+Selbstdarstellung-bild:
+
+- amsterdam_5.jpg
