@@ -42,8 +42,13 @@
 
 <section id="home_selbstdarstellung" class="grid-0">
     <div class="home_container_selbstdarstellung">
+  
             <p class="spalte"><?= $page->selbstdarstellung() ?><p>
-            <img class="selbstdarstellung_bild" src="<?= $page->selbstdarstellung_bild()->url() ?>" alt=""> 
+
+            <?php if($image = $page->image()): ?>
+           
+                <img class="selbstdarstellung_bild" src=" <?= $page->selbstdarstellung_bild() ?>" alt="">
+                <?php endif ?>
     </div>
 </section>
 
