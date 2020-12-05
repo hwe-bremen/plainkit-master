@@ -47,7 +47,7 @@
 
             <?php if($image = $page->image()): ?>
            
-                <img class="selbstdarstellung_bild" src=" <?= $page->selbstdarstellung_bild() ?>" alt="">
+                <img class="selbstdarstellung_bild" src=" <?= $page->selbstdarstellung_bild()->url() ?>" alt="">
                 <?php endif ?>
     </div>
 </section>
