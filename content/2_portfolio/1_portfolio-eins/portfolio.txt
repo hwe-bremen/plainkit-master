@@ -1,12 +1,12 @@
-Title: Portfolio Eins
+Title: Leistungen Eins
 
 ----
 
-Headline: Portfolio Eins
+Headline: Leistungen Eins
 
 ----
 
-Text: Das erste Portfolio wird hier stehen
+Text: Das erste Leistungen wird hier stehen
 
 ----
 

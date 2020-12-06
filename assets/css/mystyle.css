@@ -302,28 +302,37 @@ p.card_text--groesse {
 
      /* Home INHALT ___________________________________________*/
 
-     #home_selbstdarstellung {
+     #section_home_selbstdarstellung {
        margin-bottom: 10%;
      }
 
-     .home_container_selbstdarstellung {
+     .section_container--home {
        grid-column: 1 / span 2;
        display: flex;
        flex-flow: row;
        align-items: center;
      }
-
-     /*  .spalte {
-       width: auto;
-       column-count: 2;
-       column-gap: 10px;
-     }
-*/
      .selbstdarstellung_bild {
        width: 300%;
        height: auto;
        transform: translateX(10%);
-     }
+    }
+ 
+ /* Inhalt Team ___________________________________________*/
+   
+ .grid-2 {
+     grid-template-columns: repeat(12, minmax(350px, 1fr));
+ }
+  .team_bild {
+    grid-column: 1 / span 12;
+    width: 100%;
+    height: auto;
+ }
+ .spalte {
+    grid-column: 1 / span 9;
+    column-count: 3;
+    column-gap: 10px;
+  }
 
   /* Inhalt Portfolio ___________________________________________*/
  

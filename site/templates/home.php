@@ -40,10 +40,18 @@
 
 </section>
 
-<section id="home_selbstdarstellung" class="grid-0">
-    <div class="home_container_selbstdarstellung">
-            <p class="spalte"><?= $page->selbstdarstellung() ?><p>
+<section id="section_home_selbstdarstellung" class="grid-0">
+    <div class="section_container--home">
+            <p><?= $page->selbstdarstellung() ?><p>
             <img class="selbstdarstellung_bild" src="<?= $page->selbstdarstellung_bild()->url() ?>" alt=""> 
+    </div>
+</section>
+
+<section id="section_team">
+    <div class="section_container" class="grid-2">
+        <img class="team_bild" src="<?= $page->selbstdarstellung_bild()->url() ?>" alt=""> 
+            <p class="spalte"><?= $page->selbstdarstellung() ?><p>
+           
     </div>
 </section>
 

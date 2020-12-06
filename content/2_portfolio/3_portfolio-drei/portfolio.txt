@@ -1,12 +1,12 @@
-Title: Portfolio Drei
+Title: Leistungen Drei
 
 ----
 
-Headline: Portfolio-Drei
+Headline: Leistungen-Drei
 
 ----
 
-Text: Und nun hier die dritte Portfolio Seite
+Text: Und nun hier die dritte Leistungen Seite
 
 ----
 

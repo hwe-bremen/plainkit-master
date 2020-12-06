@@ -1,12 +1,12 @@
-Title: Portfolio-Zwei
+Title: Leistungen-Zwei
 
 ----
 
-Headline: Portfolio Zwei
+Headline: Leistungen Zwei
 
 ----
 
-Text: Zweite Seite da Portfolio Zwei
+Text: Zweite Seite da Leistungen Zwei
 
 ----
 
