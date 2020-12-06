@@ -279,7 +279,8 @@ p.card_text--groesse {
      margin: 0 auto;
      padding-bottom: 3em;
     }
-*/ .p_fett--abstand {
+*/ 
+.p_fett--abstand {
   margin: -0.1rem;
 }
  .button-standard--abstand {
@@ -302,17 +303,17 @@ p.card_text--groesse {
 
      /* Home INHALT ___________________________________________*/
 
-     #section_home_selbstdarstellung {
+ #section_home_selbstdarstellung {
        margin-bottom: 10%;
      }
 
-     .section_container--home {
+.section_container--home {
        grid-column: 1 / span 2;
        display: flex;
        flex-flow: row;
        align-items: center;
-     }
-     .selbstdarstellung_bild {
+    }
+.selbstdarstellung_bild {
        width: 300%;
        height: auto;
        transform: translateX(10%);
@@ -321,7 +322,7 @@ p.card_text--groesse {
  /* Inhalt Team ___________________________________________*/
    
  .grid-2 {
-     grid-template-columns: repeat(12, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
  }
   .team_bild {
     grid-column: 1 / span 12;
