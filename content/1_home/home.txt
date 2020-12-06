@@ -1,19 +1,40 @@
-Headertext: TOUCHPOINT
+Header-headline: TOUCHPOINT
 
 ----
 
-Headline: Das wird hier mein erster Versuch.
+Headertext: So dies und das
 
 ----
 
-Introtext: Hallo Dieter! Hier schreibe ich mal was rein, nur so, eigentlich muss hier gar nichts stehen. Das soll nämlich nur ein Beispiel sein.
+Headline: Kommunikation für Unternehmen und Institutionen
 
 ----
 
-Selbstdarstellung: Lorumque quam quatia dolupta tiorestibus aut doluptaseiumini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor. Lorumque quam quatia dolupta tiorestibus aut doluptas eium ini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor s
+Introtext: Mit unserem Know-how in den Bereichen Design, Webentwicklung und Marketing stärken wir Ihr Unternehmen in seinem Marktumfeld.
+
+----
+
+Selbstdarstellung:
+
+Wir kreieren, entwickeln, planen uns setzen professionell um: mit einer zielgruppengerechten Unternehmenspräsentation, einem E-Commerce-Shops oder auf ihr Unternehmen zugeschnittene Internetlösungen.
+Sprechen Sie uns daher gerne an, wenn es um Konzepte, Corporate Design, Packaging oder Webentwicklung geht: Das Team der Spezialisten kann Sie breit aufgestellt unterstützen.
 
 ----
 
 Selbstdarstellung-bild:
 
 - amsterdam_5.jpg
+
+----
+
+Team-headline: Das Team der Kompetenzen
+
+----
+
+Team-bodytext: Lorumque quam quatia dolupta tiorestibus aut doluptaseiumini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor. Lorumque quam quatia dolupta tiorestibus aut doluptas eium ini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor s
+
+----
+
+Team-bild:
+
+- gondel.jpg

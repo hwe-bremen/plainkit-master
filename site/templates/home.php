@@ -48,12 +48,30 @@
 </section>
 
 <section id="section_team">
-    <div class="section_container" class="grid-2">
-        <img class="team_bild" src="<?= $page->selbstdarstellung_bild()->url() ?>" alt=""> 
-            <p class="spalte"><?= $page->selbstdarstellung() ?><p>
+    <div class="grid-2">
+        <img class="team_bild" src="<?= $page->team_bild()->url() ?>" alt=""> 
+            <h3 class="team_headline"><?= $page->team_headline() ?></h3>
+            <p class="spalte"><?= $page->team_bodytext() ?><p>
+
            
     </div>
 </section>
+
+<section id="section_referenzen">
+    <div class="grid-3">
+        
+
+        <?php foreach (page('referenzen')->children()->listed() as $referenzen): ?> 
+
+        <figure> 
+                <?php if ($cover = $referenzen->cover()): ?><?= $cover ?>
+        </figure> 
+                 <?php endif ?>
+        <?php endforeach ?>
+
+  
+</section>
+
 
 </main>
 

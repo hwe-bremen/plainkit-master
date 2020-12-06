@@ -7,6 +7,7 @@
     --paragraph_zwei_zeile: calc(1.2rem + (20 - 17) * (100vw - 400px) / (800 - 400));
     --paragraph: 1.2rem;
     --paragraph_zeile: 1.6rem;
+    --corporate_color: rgba(80, 155, 80, 1)
  }
  body {
      display: grid;
@@ -101,7 +102,7 @@ p.card_text--groesse {
  li a {
      font-size: 1.5rem;
      text-decoration: none;
-     color: green;
+     color:  var(--corporate_color);
      font-weight: 700; 
  }
  
@@ -139,13 +140,14 @@ p.card_text--groesse {
      mix-blend-mode: screen;
      top: 4rem;
      left: 4rem;
+     padding: 2%;
  }
  #head_header {
      color: black;
-     font-size: 6.5vw;
-     text-align: center;
+     font-size: 7vw;
+     text-align: left;
      font-weight: 600;
-     line-height: 10vh;
+     line-height: 3vh;
  }
  
  
@@ -191,7 +193,6 @@ p.card_text--groesse {
  
  
  .grid-0 {
-     grid-row: 2;
      display: grid;
      grid-template-columns: 1fr 1fr 40%;
  }
@@ -214,7 +215,7 @@ p.card_text--groesse {
      width: calc(80px + (100vw - 95vw));
  }
  h2::after {
-     margin: 1.5em -6.9em;
+     margin: 1.5em -5.85em;
      content: '';
      position: absolute;
      background-color: black;
@@ -321,19 +322,79 @@ p.card_text--groesse {
  
  /* Inhalt Team ___________________________________________*/
    
+ #section_team {
+    margin-bottom: 15%;
+    background-color: white;;
+ }
  .grid-2 {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(12, minmax(50px, 1fr));
  }
   .team_bild {
-    grid-column: 1 / span 12;
+    grid-column: 3 / span 8;
     width: 100%;
     height: auto;
  }
+ .team_headline {
+     grid-column: 3 / span 8;
+ }
  .spalte {
-    grid-column: 1 / span 9;
-    column-count: 3;
-    column-gap: 10px;
+    grid-column: 3 / span 8;
+    column-count: 2;
+    column-gap: 3%;
   }
+
+   /* Inhalt Team ___________________________________________*/
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(50px, 1fr));
+    grid-template-rows: repeat(4, minmax(50px, 1fr));
+}
+ #section_referenzen {
+    margin-bottom: 15%;
+    background-color: white;
+ }
+ figure img {
+    object-fit: cover;
+ }
+ .grid-3 figure:nth-child(1) {
+       grid-column: 1 / span 4;
+       grid-row: 1 / span 2;
+   }
+.grid-3 figure:nth-child(2) {
+    grid-column: 9 / span 4;
+    grid-row: 1 / span 2;
+}
+.grid-3 figure:nth-child(3) {
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 2;
+    overflow: hidden;
+}
+.grid-3 figure:nth-child(4) {
+    grid-column: span 5;
+    grid-row: span 2;
+}
+.grid-3 figure:nth-child(5) {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+.grid-3 figure:nth-child(6) {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+.grid-3 figure:nth-child(7) {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+.grid-3 figure:nth-child(8) {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+.grid-3 figure:nth-child(89) {
+    grid-column: span 5;
+    grid-row: span 1;
+}
 
   /* Inhalt Portfolio ___________________________________________*/
  
