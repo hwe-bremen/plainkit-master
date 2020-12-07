@@ -1,4 +1,4 @@
-:root {
+:root {:root {
     --head_zwei: calc(1.8rem + (45 - 22) * (100vw - 400px) / (800 - 400));
     --head_zwei_zeile: calc(2.2rem + (55 - 30) * (100vw - 400px) / (800 - 400));
     --head_drei: calc(1.5rem + (25 - 18) * (100vw - 400px) / (800 - 400));
