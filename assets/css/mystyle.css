@@ -1,4 +1,4 @@
-:root {
+:root {:root {
     --head_zwei: calc(1.8rem + (45 - 22) * (100vw - 400px) / (800 - 400));
     --head_zwei_zeile: calc(2.2rem + (55 - 30) * (100vw - 400px) / (800 - 400));
     --head_drei: calc(1.5rem + (25 - 18) * (100vw - 400px) / (800 - 400));
@@ -355,9 +355,19 @@ p.card_text--groesse {
     margin-bottom: 15%;
     background-color: white;
  }
- figure img {
+ .grid-3 img {
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
     object-fit: cover;
  }
+  .grid-3 figure {
+	  position: relative;
+	  --cols: 1;
+	  --rows: 1;
+	  overflow: hidden;
+  }
  .grid-3 figure:nth-child(1) {
        grid-column: 1 / span 4;
        grid-row: 1 / span 2;
