@@ -355,9 +355,19 @@ p.card_text--groesse {
     margin-bottom: 15%;
     background-color: white;
  }
- figure img {
+ .grid-3 img {
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
     object-fit: cover;
  }
+  .grid-3 figure {
+	  position: relative;
+	  --cols: 1;
+	  --rows: 1;
+	  overflow: hidden;
+  }
  .grid-3 figure:nth-child(1) {
        grid-column: 1 / span 4;
        grid-row: 1 / span 2;
