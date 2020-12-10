@@ -489,9 +489,6 @@ p.card_text--groesse {
 @media screen and (max-width: 875px) {
 
   /* Zusätzliche Regeln für kleinere Monitore  */
-  body {
-    color: rgb(189, 12, 12);
-  }
 
   nav ul {
     padding: 0;
@@ -557,7 +554,6 @@ p.card_text--groesse {
   /* Zusätzliche Regeln für kleinere Monitore  */
 
   body {
-    color: rgb(55, 15, 199);
     grid-template-columns: 1fr;
     grid-template-columns: minmax(1rem, min-content) minmax(calc(100vw - 2rem), min-content) minmax(1rem, min-content);
   }
