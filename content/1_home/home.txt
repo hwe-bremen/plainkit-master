@@ -1,13 +1,40 @@
-Headline: Home und so
+Header-headline: TOUCHPOINT
 
 ----
 
-Text: Das wird hier mein erster Versuch.
+Headertext: So dies und das
 
 ----
 
-Textarea: Und ich gebe mir mal Mühe hier etwas gescheites reinzuschreiben damit sich die Zeilen hier auch mal etwas füllen. Klappt grad mal so eben.
+Headline: Kommunikation für Unternehmen und Institutionen
 
 ----
 
-Titel: Home
+Introtext: Mit unserem Know-how in den Bereichen Design, Webentwicklung und Marketing stärken wir Ihr Unternehmen in seinem Marktumfeld.
+
+----
+
+Selbstdarstellung:
+
+Wir kreieren, entwickeln, planen uns setzen professionell um: mit einer zielgruppengerechten Unternehmenspräsentation, einem E-Commerce-Shops oder auf ihr Unternehmen zugeschnittene Internetlösungen.
+Sprechen Sie uns daher gerne an, wenn es um Konzepte, Corporate Design, Packaging oder Webentwicklung geht: Das Team der Spezialisten kann Sie breit aufgestellt unterstützen.
+
+----
+
+Selbstdarstellung-bild:
+
+- amsterdam_5.jpg
+
+----
+
+Team-headline: Das Team der Kompetenzen
+
+----
+
+Team-bodytext: Lorumque quam quatia dolupta tiorestibus aut doluptaseiumini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor. Lorumque quam quatia dolupta tiorestibus aut doluptas eium ini aut quia vel molupta quatios simolupta poruntem con perumendam, te laboremquod millorp oratese recatiberit optatur, iur mo iumqui ipsae nonse nis moluptatem am, apis qui arum et ut eum volor s
+
+----
+
+Team-bild:
+
+- gondel.jpg

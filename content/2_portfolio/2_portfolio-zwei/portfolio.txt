@@ -1,16 +1,16 @@
-Title: Portfolio-Zwei
+Title: Leistungen-Zwei
 
 ----
 
-Headline: Portfolio Zwei
+Headline: Leistungen Zwei
 
 ----
 
-Text: Zweite Seite da Portfolio Zwei
+Text: Zweite Seite da Leistungen Zwei
 
 ----
 
-Textarea: ZWEI  si **disque sapid ut incto** bea aborrum fugit ium con con nobis vid quam autatem. Mod ut as samus eturest quaspieni doluptat enistiati ut ad mil magni simo od molupta turerch ilisquam ut eosam, esto dalo rome.
+Textarea: <b>ZWEI  sidisque</b> - sapid ut incto bea aborrum fugit ium con con nobis vid quam autatem.
 
 ----
 

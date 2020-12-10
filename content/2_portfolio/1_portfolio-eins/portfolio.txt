@@ -1,16 +1,16 @@
-Title: Portfolio Eins
+Title: Leistungen Eins
 
 ----
 
-Headline: Portfolio Eins
+Headline: Leistungen Eins
 
 ----
 
-Text: Das erste Portfolio wird hier stehen
+Text: Das erste Leistungen wird hier stehen
 
 ----
 
-Textarea: Bla  aa aaaaaaaaa
+Textarea: Lsapid ut incto bea aborrum fugit ium con con nobis vid quam autatem. Mod ut as samus eturest quaspieni doluptat enistiati ut ad mil magni simo.
 
 ----
 
