@@ -1,4 +1,4 @@
-:root {:root {
+:root {
     --head_zwei: calc(1.8rem + (45 - 22) * (100vw - 400px) / (800 - 400));
     --head_zwei_zeile: calc(2.2rem + (55 - 30) * (100vw - 400px) / (800 - 400));
     --head_drei: calc(1.5rem + (25 - 18) * (100vw - 400px) / (800 - 400));
@@ -23,6 +23,7 @@
  .main {
      grid-row: 2 / span 1;
      grid-column: 2 / span 1;
+     box-sizing: border-box;
  }
  h2 {
      font-size: var(--head_zwei);
@@ -69,6 +70,11 @@ p.card_text--groesse {
      text-decoration: none;
      color: black;
  }
+ img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
 /* MENUE___________________________________________*/
 
  .menu {
@@ -83,9 +89,10 @@ p.card_text--groesse {
  .logo_image {
      overflow: hidden;
      float: left;
-     margin: 20px 50px;
+     margin: 20px 0;
      color: green;
      height: 55px;
+     width: auto;
  }
  nav ul {
      float: right;
@@ -263,17 +270,15 @@ p.card_text--groesse {
      bottom: -1em;
      z-index: -1;
  }*/
- figure {
+ .card>figure {
      margin: 0;
      width: 100%;
      height: auto;
      overflow: hidden;
  }
- figure img {
+ .card>figure img {
      object-fit: cover;
-     width: 100%;
      height: auto;
- 
  }
   /* .cards {
    width: 95%;
@@ -344,66 +349,95 @@ p.card_text--groesse {
     column-gap: 3%;
   }
 
-   /* Inhalt Team ___________________________________________*/
-
-.grid-3 {
-    display: grid;
-    grid-template-columns: repeat(12, minmax(50px, 1fr));
-    grid-template-rows: repeat(4, minmax(50px, 1fr));
-}
- #section_referenzen {
-    margin-bottom: 15%;
-    background-color: white;
+   /* Inhalt Referenzen ___________________________________________*/
+   #section_referenzen {
+     margin-bottom: 15%;
+     background-color: white;
+   }
+ .grid-3 {
+   display: grid;
+   grid-template-columns: repeat(12, minmax(50px, 1fr));
+   grid-template-rows: repeat(3, 30vh);
+   grid-gap: 1.5%;
+   grid-auto-flow: dense;
  }
- .grid-3 img {
-	 top: 0;
-	 left: 0;
-	 right: 0;
-	 bottom: 0;
+.grid-3 img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
  }
-  .grid-3 figure {
-	  position: relative;
-	  --cols: 1;
-	  --rows: 1;
-	  overflow: hidden;
-  }
- .grid-3 figure:nth-child(1) {
-       grid-column: 1 / span 4;
-       grid-row: 1 / span 2;
-   }
-.grid-3 figure:nth-child(2) {
-    grid-column: 9 / span 4;
-    grid-row: 1 / span 2;
-}
-.grid-3 figure:nth-child(3) {
-    grid-column: 5 / span 4;
-    grid-row: 1 / span 2;
+.grid-3 .referenzen_card {
+    position: relative;
+	grid-column: span 2;
+	grid-row: span 2;
     overflow: hidden;
+    background-color: darkolivegreen;
+    line-height: 0%;
+    }
+.grid-3 .referenzen_titel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  transform: translateX(-100%);
+  height: 100%;
+  width: 100%;
+  color: white;
 }
-.grid-3 figure:nth-child(4) {
-    grid-column: span 5;
-    grid-row: span 2;
+.grid-3 .referenzen_card:hover .referenzen_titel {
+  position: absolute;
+  background-color: var(--corporate_color);
+  opacity: 0.7;
+  transform: translateX(0%);
+  transition: all 1s ease;
 }
-.grid-3 figure:nth-child(5) {
-    grid-column: span 4;
+.grid-3 .referenzen_card>figure {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.grid-3 .referenzen_card:first-child {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+.grid-3 .referenzen_card:nth-child(2) {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.grid-3 .referenzen_card:nth-child(3) {
+  grid-column: span 3;
     grid-row: span 1;
 }
-.grid-3 figure:nth-child(6) {
-    grid-column: span 4;
+.grid-3 .referenzen_card:nth-child(4) {
+  grid-column: span 2;
     grid-row: span 1;
 }
-.grid-3 figure:nth-child(7) {
+.grid-3 .referenzen_card:nth-child(5) {
     grid-column: span 3;
     grid-row: span 1;
+    }
+.grid-3 .referenzen_card:nth-child(6) {
+  grid-column: span 2;
+  grid-row: span 1;
 }
-.grid-3 figure:nth-child(8) {
-    grid-column: span 3;
-    grid-row: span 1;
+.grid-3 .referenzen_card:nth-child(7) {
+  grid-column: span 4;
+  grid-row: span 1;
 }
-.grid-3 figure:nth-child(9) {
-    grid-column: span 5;
-    grid-row: span 1;
+
+.grid-3 .referenzen_card:nth-child(8) {
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+.grid-3 .referenzen_card:last-child {
+  grid-column: span 4;
+  grid-row: span 1;
 }
 
   /* Inhalt Portfolio ___________________________________________*/
@@ -447,4 +481,302 @@ p.card_text--groesse {
      grid-row: 3 / 4;
      grid-column: 1 / span 3;
      background-color: black;
- }
+}
+/* Media Screens ___________________________________________*/
+
+
+
+@media screen and (max-width: 875px) {
+
+  /* Zusätzliche Regeln für kleinere Monitore  */
+  body {
+    color: rgb(189, 12, 12);
+  }
+
+  nav ul {
+    padding: 0;
+    margin-right: -1em;
+  }
+
+  .grid-0 {
+    grid-template-columns: repeat(12, minmax(50px, 1fr));
+  }
+
+  .grid-inhalt {
+    grid-column-start: 1;
+    grid-column-end: 10;
+  }
+
+  h3.grid-inhalt {
+    grid-column-start: 1;
+    grid-column-end: 10;
+  }
+
+  #inhalt {
+    margin-bottom: 25%;
+  }
+
+  .card {
+    margin-bottom: 15rem;
+  }
+
+  #grid1 {
+    grid-gap: 3%;
+  }
+
+  .section_container--home {
+    grid-column: 3 / span 8;
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  p>.selbstdarstellung_bild {
+    grid-column: 3 / span 8;
+    width: 100%;
+    height: auto;
+    transform: translateX(0);
+  }
+
+  .spalte {
+    grid-column: 3 / span 8;
+    column-count: 1;
+    column-gap: 0%;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(50px, 1fr));
+    grid-template-rows: repeat(3, 15vh);
+    grid-gap: 1.5%;
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+
+  /* Zusätzliche Regeln für kleinere Monitore  */
+
+  body {
+    color: rgb(55, 15, 199);
+    grid-template-columns: 1fr;
+    grid-template-columns: minmax(1rem, min-content) minmax(calc(100vw - 2rem), min-content) minmax(1rem, min-content);
+  }
+
+  .headerbild {
+    width: calc(100vw - 2rem);
+  }
+
+  #head_line {
+    width: calc(50vw - 2rem);
+    top: 2rem;
+    left: 2rem;
+    padding: 2%;
+  }
+
+  .grid-0 {
+    grid-template-columns: repeat(12, minmax(10px, 1fr));
+  }
+
+  .grid-inhalt {
+    grid-column-start: 2;
+    grid-column-end: 10;
+  }
+
+  h3.grid-inhalt {
+    grid-column-start: 2;
+    grid-column-end: 10;
+  }
+
+  #grid1 {
+    display: grid;
+    margin: 0 5%;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(12, minmax(10px, 1fr));
+  }
+
+  .card {
+    margin-bottom: 15rem;
+  }
+
+  .team_bild {
+    grid-column: 2 / span 10;
+  }
+
+  .team_headline {
+    grid-column: 2 / span 10;
+  }
+
+  #section_home_selbstdarstellung {
+    margin-bottom: 10%;
+    margin-top: 45%;
+  }
+
+  .section_container--home {
+    grid-column: 2 / span 10;
+  }
+
+  p>.selbstdarstellung_bild {
+    grid-column: 2 / span 10;
+  }
+
+  .spalte {
+    grid-column: 2 / span 10;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(12, minmax(10px, 1fr));
+    grid-template-rows: repeat(4, 25vh);
+  }
+
+  .grid-3 .referenzen_card:first-child {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:nth-child(2) {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:nth-child(3) {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:nth-child(4) {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:nth-child(5) {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:nth-child(6) {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:nth-child(7) {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:nth-child(8) {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+
+  .grid-3 .referenzen_card:last-child {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .grid-0 {
+    grid-template-columns: repeat(12, minmax(10px, 1fr));
+    grid-gap: 0%;
+  }
+
+  .grid-inhalt {
+    grid-column-start: 1;
+    grid-column-end: 12;
+  }
+
+  h3.grid-inhalt {
+    grid-column-start: 1;
+    grid-column-end: 12;
+  }
+
+  #section_home_selbstdarstellung {
+    margin-bottom: 10%;
+    margin-top: 50%;
+  }
+
+  .section_container--home {
+    grid-column: 1 / span 12;
+  }
+
+  p>.selbstdarstellung_bild {
+    grid-column: 1 / span 12;
+  }
+
+  .card {
+    margin-bottom: 12rem;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(10px, 1fr));
+  }
+
+  .team_bild {
+    grid-column: 1 / span 128;
+    width: 100%;
+    height: auto;
+  }
+
+  .team_headline {
+    grid-column: 1 / span 12;
+  }
+
+  .spalte {
+    grid-column: 1 / span 12;
+  }
+
+  #section_referenzen {
+    margin-bottom: 25%;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(10px, 1fr));
+    grid-template-rows: repeat(6, 20vh);
+  }
+
+  .grid-3 .referenzen_titel {
+    font-size: 1.5rem;
+  }
+
+  .grid-3 .referenzen_card:first-child {
+    grid-column: span 6;
+  }
+
+  .grid-3 .referenzen_card:nth-child(2) {
+    grid-column: span 6;
+  }
+
+  .grid-3 .referenzen_card:nth-child(3) {
+    grid-column: span 3;
+  }
+
+  .grid-3 .referenzen_card:nth-child(4) {
+    grid-column: span 3;
+  }
+
+  .grid-3 .referenzen_card:nth-child(5) {
+    grid-column: span 3;
+  }
+
+  .grid-3 .referenzen_card:nth-child(6) {
+    grid-column: span 3;
+  }
+
+  .grid-3 .referenzen_card:nth-child(7) {
+    grid-column: span 3;
+  }
+
+  .grid-3 .referenzen_card:nth-child(8) {
+    grid-column: span 3;
+  }
+
+  .grid-3 .referenzen_card:last-child {
+    grid-column: span 3;
+  }
+}

@@ -1,7 +1,8 @@
 <!doctype html><html lang="de">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+
 
   <title>Playground p2</title>
   <meta name="description" content="p2">

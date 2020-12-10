@@ -4,7 +4,7 @@
             <?php snippet('header') ?>
 
 
-
+<!-- Bereich INTRO / LEISTUNGEN -->
 
 <section id="inhalt">
     <div class="grid-0">
@@ -40,6 +40,8 @@
 
 </section>
 
+<!-- Bereich SELBSTDARSTELLUNG -->
+
 <section id="section_home_selbstdarstellung" class="grid-0">
     <div class="section_container--home">
             <p><?= $page->selbstdarstellung() ?><p>
@@ -57,19 +59,22 @@
     </div>
 </section>
 
+<!-- Bereich REFERENZEN -->
+
 <section id="section_referenzen">
     <div class="grid-3">
         
 
         <?php foreach (page('referenzen')->children()->listed() as $referenzen): ?> 
-
+<article class="referenzen_card">
         <figure> 
-                <?php if ($cover = $referenzen->cover()): ?><?= $cover ?>
+                <?php if ($cover = $referenzen->cover()): ?><?= $cover->resize(500, 500) ?>
+                    <figcaption class="referenzen_titel"><h3><?= $referenzen->headline() ?></h3></figcaption>
         </figure> 
                  <?php endif ?>
-        <?php endforeach ?>
-
-  
+      
+ </article>
+ <?php endforeach ?> 
 </section>
 
 
