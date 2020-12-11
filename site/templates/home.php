@@ -69,14 +69,13 @@
 <article class="referenzen_card">
         <figure> 
                 <?php if ($cover = $referenzen->cover()): ?><?= $cover->resize(500, 500) ?>
-                    <figcaption class="referenzen_titel"><h3><?= $referenzen->headline() ?></h3></figcaption>
+                    <figcaption class="referenzen_titel"><a id="referenzen_card--link" style="text-decoration: none; color: white"  href="<?= $referenzen->url() ?>"><h3><?= $referenzen->headline() ?></h3></a></figcaption>
         </figure> 
                  <?php endif ?>
       
  </article>
  <?php endforeach ?> 
 </section>
-
 
 </main>
 
