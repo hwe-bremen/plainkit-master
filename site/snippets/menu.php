@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/nct2ili.css">
 
 </head>
-
+<body>
 <nav class="menu">
     <a class="logo" href="<?= $site->url() ?>"><image class="logo_image" src="<?= $site->image()->url() ?>"></a>
     <ul id="nav_eben1">
