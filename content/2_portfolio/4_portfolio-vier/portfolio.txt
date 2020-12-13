@@ -1,12 +1,12 @@
-Title: Leistungen vier
+Title: 04_Medienkompetenz
 
 ----
 
-Headline: Das wird der Vierte Leistungen Artikel
+Headline: 04_Medienkompetenz
 
 ----
 
-Text: Hier der Einstieg zu Nummer Vier
+Text: Vom barrierefreiem PDF der Druckvorlage einer Becherplatine bis zur Betreuung Ihrer Instagram-Präzens: WIr setzen Ihre Projekte um.
 
 ----
 

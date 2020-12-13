@@ -23,7 +23,7 @@
 
             <div class="card_text">
                 <p class="p_fett card_text--groesse"><?= $portfolio->headline() ?></p>
-                    <div class="button-standard--abstand"><p class="card_text--groesse"><?= $portfolio->textarea() ?><p>
+                    <div class="button-standard--abstand"><p class="card_text--groesse"><?= $portfolio->text()->html() ?><p>
                     </div>
               <button class="button_standard"> <a class="button_standard--link" href="<?= $portfolio->url() ?>"> mehr </a> </button>
             </div> 

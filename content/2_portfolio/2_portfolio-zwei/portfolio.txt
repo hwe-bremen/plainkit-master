@@ -1,12 +1,12 @@
-Title: Leistungen-Zwei
+Title: 02_Webdesign
 
 ----
 
-Headline: Leistungen Zwei
+Headline: 02_Webdesign
 
 ----
 
-Text: Zweite Seite da Leistungen Zwei
+Text: Webanwendung sind das digitale Interface unserer Zeit und wir verbinden visuelles Erleben mit optimaler Zugänglichkeit.
 
 ----
 

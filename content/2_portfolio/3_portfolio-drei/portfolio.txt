@@ -1,12 +1,12 @@
-Title: Leistungen Drei
+Title: 03_Webentwicklung
 
 ----
 
-Headline: Leistungen-Drei
+Headline: 03_Webentwicklung
 
 ----
 
-Text: Und nun hier die dritte Leistungen Seite
+Text: Die technische Entwicklung stellt höchste Ansprüche – an Funktionalität, performantem Code und individueller Anwendungsprogrammierung.
 
 ----
 

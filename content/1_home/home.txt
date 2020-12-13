@@ -1,3 +1,12 @@
+Header-bilder:
+
+- 01_schaufenster_amsterdam.jpg
+- 02_atomium_bruessel.jpg
+- 03_schaufenster_amsterdam.jpg
+- 04_schaufenster_florenz.jpg
+
+----
+
 Header-headline: TOUCHPOINT
 
 ----
@@ -16,7 +25,7 @@ Introtext: Mit unserem Know-how in den Bereichen Design, Webentwicklung und Mark
 
 Selbstdarstellung:
 
-Wir kreieren, entwickeln, planen uns setzen professionell um: mit einer zielgruppengerechten Unternehmenspräsentation, einem E-Commerce-Shops oder auf ihr Unternehmen zugeschnittene Internetlösungen.
+<b>Wir kreieren, entwickeln, planen uns setzen für Sie professionell um:</b><br> Mit zielgruppengerechten Unternehmenspräsentation, einem E-Commerce-Shops oder auf ihr Unternehmen zugeschnittene Internetlösungen.<br><br>
 Sprechen Sie uns daher gerne an, wenn es um Konzepte, Corporate Design, Packaging oder Webentwicklung geht: Das Team der Spezialisten kann Sie breit aufgestellt unterstützen.
 
 ----
@@ -38,3 +47,5 @@ Team-bodytext: Lorumque quam quatia dolupta tiorestibus aut doluptaseiumini aut 
 Team-bild:
 
 - gondel.jpg
+
+----

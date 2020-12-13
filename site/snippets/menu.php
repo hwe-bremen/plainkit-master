@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 
 
-  <title>Playground p2</title>
+  <title>du:projekt - gemeinsam ideen bewegen</title>
   <meta name="description" content="p2">
   <meta name="author" content="SitePoint">
 
