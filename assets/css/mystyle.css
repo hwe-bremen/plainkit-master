@@ -96,6 +96,10 @@ img {
      height: 55px;
      width: auto;
  }
+ input#hamburger-menu {
+  display: none;
+  }
+
  nav ul {
      float: right;
      list-style: none;
@@ -291,8 +295,9 @@ h3.grid-inhalt {
   flex-flow: wrap;
   position: absolute;
   padding: 3%;
-  transform: translateY(90%);
+  transform: translateY(80%);
   width: 85%;
+  height: 100%;
   background-color: var(--corporate_color);
   color: white;
   transition: transform 0.8s ease-in-out;
@@ -508,7 +513,7 @@ h3.grid-inhalt {
     grid-template-columns: repeat(12, minmax(50px, 1fr));
   }
   #grid1 {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
   .grid-inhalt {
@@ -569,9 +574,62 @@ h3.grid-inhalt {
     grid-template-columns: 1fr;
     grid-template-columns: minmax(1rem, min-content) minmax(calc(100vw - 2rem), min-content) minmax(1rem, min-content);
   }
-  nav ul {
-    display: none;
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  height: 2.3rem;
+  width: 2.3rem;
+  cursor: pointer;
+  float: right;
+}  
+.hamburger-menu .bar {
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 3px 0px;
+  transform-origin: left;
+  transition: all 0.5s;
+} 
+#hamburger-menu:checked + .hamburger-menu .top {
+  transform: rotate(45deg);
+} 
+#hamburger-menu:checked + .hamburger-menu .middle {
+  opacity: 0;
+}
+#hamburger-menu:checked + .hamburger-menu .bottom {
+transform: rotate(-45deg);
+}
+
+#hamburger-menu:checked + .hamburger-menu + #nav_eben1 {
+  height: 300px;
+  padding-top: 30px;
+  background-color: var(--corporate_color);
+  transform: translateY(-5%);
   }
+
+#nav_eben1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  transform: translateY(-220%);
+  width: 100%;
+  transition: all 0.3s  ease-in-out;
+  }
+
+  nav ul {
+    margin-top: 0px;
+    margin-right: 0px
+}
+
+li a {
+    font-size: 2rem;
+    color:  white;
+}
 
   #header_bereich img {
     object-position: bottom;
@@ -613,8 +671,8 @@ h3.grid-inhalt {
     margin-bottom: 15rem;
   }
   p.card_text--groesse {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
   .team_bild {
     grid-column: 2 / span 10;
@@ -693,6 +751,7 @@ h3.grid-inhalt {
 }
 
 @media screen and (max-width: 550px) {
+
   h3 {
     font-size: 1.3rem;
     line-height: 1.5rem
