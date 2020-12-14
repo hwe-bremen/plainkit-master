@@ -1,12 +1,12 @@
-Title: Leistungen Eins
+Title: 01_Corporate Design
 
 ----
 
-Headline: Leistungen Eins
+Headline: 01_Corporate Design
 
 ----
 
-Text: Das erste Leistungen wird hier stehen
+Text: Die visuelle Identität schärft das Profil – auch im Umfeld wandelnder Markenidentitäten. Wir begleiten den gesamten Entwicklungsprozess.
 
 ----
 
